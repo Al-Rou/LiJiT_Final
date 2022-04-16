@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="IRepository\" />
+    <None Remove="IService\" />
+    <None Remove="Service\" />
+    <None Remove="DTO\" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="Newtonsoft.Json" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.13" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LiJiT.Model\LiJiT.Model.csproj" />
+  </ItemGroup>
+</Project>

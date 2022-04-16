@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Repository\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Repository\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LiJiT.Domain\LiJiT.Domain.csproj" />
+    <ProjectReference Include="..\LiJiT.Model\LiJiT.Model.csproj" />
+    <ProjectReference Include="..\LiJiT.EntityFramework\LiJiT.EntityFramework.csproj" />
+  </ItemGroup>
+</Project>

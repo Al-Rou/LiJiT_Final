@@ -1,0 +1,40 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{29694412-9E84-4AAA-BA6C-37F03B9818F8}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LiJiT.Test/EventsControllerTest.cs">
+    <Files>
+      <File FileName="LiJiT.Domain/Service/EventService.cs" Line="77" Column="10" />
+      <File FileName="LiJiT.Domain/IService/IEventService.cs" Line="14" Column="68" />
+      <File FileName="LiJiT.API/Controllers/EventsController.cs" Line="37" Column="84" />
+      <File FileName="LiJiT.API/Program.cs" />
+      <File FileName="LiJiT.API/Controllers/ListingDetailController.cs" />
+      <File FileName="LiJiT.API/Controllers/ListingTypeController.cs" />
+      <File FileName="LiJiT.Domain/DTO/ResultDto.cs" />
+      <File FileName="LiJiT.API/Controllers/AboutContentController.cs" Line="39" Column="10" />
+      <File FileName="LiJiT.Domain/DTO/ResponseCodes.cs" />
+      <File FileName="LiJiT.Domain/DTO/ResponseExtension.cs" />
+      <File FileName="LiJiT.Domain/IService/IAboutContentService.cs" Line="13" Column="89" />
+      <File FileName="LiJiT.Test/LitingTypeControllerTest.cs" Line="102" Column="10" />
+      <File FileName="LiJiT.Test/AboutContentControllerTest.cs" Line="36" Column="1" />
+      <File FileName="LiJiT.Test/EventsControllerTest.cs" Line="36" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LiJiT" expanded="True">
+            <Node name="LiJiT.API" selected="True" />
+            <Node name="LiJiT.Test" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.LiJiT.Test PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.LiJiT.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/sorenasorena/Desktop/LiJiT_for_Admin/LiJiT_for_Event/LiJiT.API/Controllers/AboutContentController.cs" relfile="LiJiT.API/Controllers/AboutContentController.cs" line="23" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

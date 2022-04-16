@@ -1,0 +1,65 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId> </UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LiJiT.EntityFramework\LiJiT.EntityFramework.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\LiJiT.Domain\LiJiT.Domain.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\LiJiT.DependencyConfig\LiJiT.DependencyConfig.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\LiJiT.Utility\LiJiT.Utility.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="Microsoft.EntityFrameworkCore.Design" />
+    <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
+    <None Remove="System.IdentityModel.Tokens.Jwt" />
+    <None Remove="Microsoft.IdentityModel.Tokens" />
+    <None Remove="Microsoft.AspNetCore.Authentication.JwtBearer" />
+    <None Remove="Models\" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="Services\" />
+    <None Remove="AutoMapper" />
+    <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="MappingProfile\" />
+    <None Remove="Configuration\" />
+    <None Remove="Microsoft.IO.RecyclableMemoryStream" />
+    <None Remove="Migrations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.13">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.13">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		<PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.13" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.13" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.15.1" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.15.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.IO.RecyclableMemoryStream" Version="2.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Services\" />
+    <Folder Include="MappingProfile\" />
+    <Folder Include="Configuration\" />
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+</Project>

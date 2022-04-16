@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "LiJiT.Logging/1.0.0": {
+        "runtime": {
+          "LiJiT.Logging.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LiJiT.Logging/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
